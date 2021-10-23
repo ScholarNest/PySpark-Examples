@@ -31,5 +31,3 @@ if __name__ == "__main__":
 
     df.withColumn("Product", expr("my_udf(code)")) \
         .show()
-
-    input()
