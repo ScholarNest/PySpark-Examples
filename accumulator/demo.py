@@ -4,7 +4,7 @@ from pyspark.sql.types import *
 
 
 def handle_bad_rec(shipments: str) -> int:
-    s = 0
+    s = None
     try:
         s = int(shipments)
     except ValueError:
