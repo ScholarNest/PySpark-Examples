@@ -18,3 +18,5 @@ if __name__ == "__main__":
 
     join_df.show()
     print("Number of Output Partitions:" + str(join_df.rdd.getNumPartitions()))
+
+    
