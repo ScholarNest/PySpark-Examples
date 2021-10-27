@@ -34,4 +34,4 @@ if __name__ == "__main__":
         j.join()
 
     print(outputs)
-    input()
+
