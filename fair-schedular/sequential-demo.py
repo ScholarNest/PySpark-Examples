@@ -16,4 +16,4 @@ if __name__ == "__main__":
     df4 = spark.read.json("data/d4")
     print(df3.join(df4, "id", "inner").count())
 
-    input()
+
